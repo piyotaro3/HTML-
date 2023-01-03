@@ -11,11 +11,21 @@
 <body>
   <h1>株式会社TECH</h1>
   <ul>
-    <li>ホーム</li>
-    <li>企業情報</li>
-    <li>会社概要</li>
-    <li>よくある質問</li>
-    <li>お問い合わせ</li>
+    <li>
+      <a href="HTMLの演習問題\リンク先\detail.html">ホーム</a>
+    </li>
+    <li>
+      <a href=HTMLの演習問題\リンク先\企業情報.html>企業情報</a>
+    </li>
+    <li>
+      <a href=HTMLの演習問題\リンク先\会社概要.html>会社概要</a>
+    </li>
+    <li>
+      <a href=HTMLの演習問題\リンク先\よくある質問.html>よくある質問</a>
+    </li>
+    <li>
+      <a href=HTMLの演習問題\リンク先\お問い合わせ.html>お問い合わせ</a>
+    </li>
   </ul>
   <img src=".ing\mv.png" alt="風景1">
   <p>最新のテクノロジーで社会課題を解決</p>
@@ -47,20 +57,30 @@
     </tr>
   </table>
   <h2>お問い合わせ</h2>
-  <form action="detail.html" "method=" get">
-    <label for="corp">会社名</label>
-    <input type="text" name="corp" id="corp">
+  <div>
+    <form action="detail.html" "method=" post">
+      <label for="corp">会社名</label>
+      <input type="text" name="corp" id="corp">
+  </div>
+  <div>
     <label for="name">お名前</label>
     <input type="text" name="name" id="name">
+  </div>
+  <div>
     <label for="mail">メールアドレス</label>
     <input type="email" name="mail" id="mail">
+  </div>
+  <div>
     <label for="inquiry">お問い合わせ内容</label>
     <textarea name="inquiry" cols="30" rows="5" id="inquiry"></textarea>
+  </div>
+  <div>
     <input type="submit" name="button" value="お申し込み">
+  </div>
+  <div>
     <small>©2020 TECH inc.</small>
+  </div>
   </form>
-
-
 </body>
 
 </html>
